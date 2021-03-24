@@ -14,3 +14,20 @@ a {
 * {
   box-sizing: border-box;
 }
+
+:root {
+  --most-black: #002b36;
+  --black: #073642;
+  --charcoal: #586e75;
+  --light-charcoal: #839496;
+  --white: #fdf6e3;
+  --off-white: #eee8d5;
+  --yellow: #b58900;
+  --orange: #cb4b16;
+  --red: #dc322f;
+  --magenta: #d33682;
+  --violet: #6c71c4;
+  --blue: #268bd2;
+  --cyan: #2aa198;
+  --green: #859900;
+}
