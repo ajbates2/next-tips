@@ -14,8 +14,8 @@ export default function Home() {
 				/>
 			</Head>
 			<header className={styles.header_container}>
-				<div>
-					<h1 className={styles.tips_header}>tips.</h1>
+				<h1 className={styles.tips_header}>tips.</h1>
+				<div className={styles.cta}>
 					<p>Keep track of your money.</p>
 					<Link href='/dashboard'>
 						<a>Create an account</a>

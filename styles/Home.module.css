@@ -1,12 +1,12 @@
 .container {
-	background-color: var(--most-black);
+	background: linear-gradient(315deg, var(--light-charcoal), var(--charcoal));
 	min-height: 100vh
 }
 
 .tips_header {
 	font-style: italic;
 	color: var(--most-black);
-	filter: drop-shadow(3px 5px 0px var(--charcoal));
+	filter: drop-shadow(3px 5px 0px var(--red));
 	font-size: 4rem;
 	line-height: 1.2;
 	font-weight: 800;
@@ -15,7 +15,6 @@
 }
 
 .header_container {
-	background: linear-gradient(315deg, var(--light-charcoal), var(--charcoal));
 	height: 50vh;
 	display: grid;
 	place-items: center;
@@ -53,7 +52,6 @@
 }
 
 .about {
-    background: linear-gradient(315deg, var(--red), var(--orange));
 	color: var(--most-black);
 	text-align: center;
 	padding: 5vh 0;
@@ -68,7 +66,7 @@
     text-align: center;
 }
  
-.header_container a {
+.cta a {
     text-decoration: none;
     color: var(--most-black);
     background: linear-gradient(315deg, var(--red), var(--orange));
@@ -77,7 +75,7 @@
 	margin-top: 2rem;
 }
 
-.header_container a:hover {
+.cta a:hover {
     cursor: pointer;
 	background: linear-gradient(315deg, var(--off-white), var(--white));
 }
